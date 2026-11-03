@@ -44,4 +44,4 @@ Conclusion: This is a TCP SYN scan (half-open scan), consistent with a tool like
 
 <img width="703" height="366" alt="40" src="https://github.com/user-attachments/assets/3c9c22fc-a2b5-4e70-b62f-63e353748946" />
 
-
+https://docs.google.com/document/d/1I0YFlQvh6wmYx6shr05fdiO7kzZ6yD1f7ASihZUEcWs/edit?tab=t.0
