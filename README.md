@@ -32,7 +32,6 @@ Closed-port reply flags	tcp.flags.reset==1 && ip.src==192.168.--.-- && ip.dst==1
 Closed ports	Count of RST, ACK replies	.tcp.flags.reset==1 && ip.src==192.168.--.-- && ip.dst==192.168.--.--
 The count is in the status bar: Displayed: N. That N is the number of closed ports, assuming each port was probed once
 
-Conclusion: This is a TCP SYN scan (half-open scan), consistent with a tool like Nmap's -sS. A single host (192.168.10.66) sent SYN packets from a fixed source port to 40 different destination ports on one target (192.168.10.20), without completing the three-way handshake on any of them — a reconnaissance technique that is stealthier and less likely to be logged by the target application than a full TCP connect scan
 
 <img width="364" height="375" alt="6 wireshark labs abd 2 quizzes" src="https://github.com/user-attachments/assets/3a186f61-bafd-44fb-a383-b8b9c2fc8bec" />
 
